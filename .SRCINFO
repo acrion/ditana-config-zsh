@@ -1,0 +1,19 @@
+pkgbase = ditana-config-zsh
+	pkgdesc = Ditana zsh config
+	pkgver = 1.05
+	pkgrel = 1
+	url = https://ditana.org
+	arch = any
+	license = AGPL-3.0-or-later AND custom-zsh AND BSD-3-Clause AND MIT AND BSD AND ISC
+	depends = ditana-config-shell
+	depends = zsh
+	depends = zsh-syntax-highlighting
+	depends = zsh-autosuggestions
+	depends = zsh-history-substring-search
+	depends = fzf
+	depends = pkgfile
+	depends = starship
+	source = file:///media/stefan/data/Documents/git/my-projects/acrion/ditana/packages/003-ditana-config-zsh/.zshrc
+	sha256sums = SKIP
+
+pkgname = ditana-config-zsh
